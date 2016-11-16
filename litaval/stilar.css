@@ -2,11 +2,11 @@ body {
 	margin:0;
 }
 .sumar {
-	background: red; /* For browsers that do not support gradients */
+	background: blue; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(bottom right, red, yellow); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(bottom right, red, yellow); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(bottom right, red, yellow); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, red, yellow); /* Standard syntax (must be last) */
+    background: linear-gradient(to bottom right, red,yellow); /* Standard syntax (must be last) */
 
     position: fixed;
 	width: 100%;
@@ -21,7 +21,7 @@ body {
 }
 .sumar h1 {
 	font-size: 5em;
-	color: #eeeeff;
+	color:  #eeffff ;
 }
 .vetur {
 	display: none;
